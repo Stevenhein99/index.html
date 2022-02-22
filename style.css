@@ -1,0 +1,166 @@
+* {
+	box-sizing: border-box;
+}
+.header {
+	color: lightgrey;
+	background-color: white;
+	display: flex;
+	font-family: 'Raleway', sans-serif;
+	background-color: darkcyan;
+	align-items: center;
+	justify-content: space-around;
+} 
+.title {
+	color: lightgrey;
+	font-family: 'Glass Antiqua', cursive;
+	background-color: white;
+}
+.logo {
+	width: 18%;
+	border-radius: 70px;
+	padding: 10px;
+}
+ul {
+	display: flex;
+	list-style: none;
+	justify-content: center;
+	padding-right: 40px;
+}
+.navbar li a {
+	text-decoration: none;
+	padding: 30px;
+	font-size: 16px;
+	font-family: font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	color: white;
+	transition: 0.5s;
+}
+li a:hover {
+  color: pink;
+}
+li img {
+	width: 100%;
+}
+li img:hover {
+	cursor: pointer;
+}
+a { 
+	text-decoration: none;
+} 
+body {
+	background-color: white;
+	width: 100%;
+	margin: 0 auto;
+}
+.container {
+	position: relative;
+}
+.container img {
+	filter: brightness(50%);
+}
+.container input {
+	margin-left: 20px;
+	text-decoration: none;
+	border: none;
+	padding: 20px 40px;
+	background-color: darkcyan;
+	color: white;
+	border-radius: 5px;
+	font-family: inherit;
+	font-size: 1em;
+	transition: 1s;
+}
+.container input:hover {
+	background-color: white;
+	color: darkcyan;
+}
+.intro1 {
+	color: white;
+	font-family: 'Raleway', sans-serif;
+  position: absolute;
+  top: 20%;
+  right: 50%;
+  font-size: 20px;
+ }
+.intro1 p {
+	padding-left: 20px;
+}
+h3 {
+	font-size: 50px;
+	padding-left: 20px;
+}
+h5 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600px;
+	font-size: 25px;
+	text-align: center;
+	padding: 0px;
+	margin-left: 2px;
+}
+h6 {
+	font-family: 'Urbanist', sans-serif;
+  font-size: 20px;
+  text-align: left;
+  color: black;
+  padding-left: 10px;
+}
+h1 {
+	font-size: 60px;
+	color: #677290;
+	text-align: center;
+}
+.imgpic {
+	width: 25%;
+}
+.watchshow:hover {
+	border: 1px solid darkcyan;
+}
+h2 {
+	color: black;
+	text-align: center;
+}
+.watchshow {
+	flex-basis: 25%;
+	min-width: 100px;
+	margin: 20px;
+	background-color: white;
+	transition: transform 0.5s;
+	transition: 0.3s;
+}
+.watchshow:hover{
+	transform: translatey(-5px);
+}
+.watchshow img{
+	width: 100%;
+}
+.flex-container {
+	margin: 20px 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding-left: 30px;
+	margin-right: 30px;
+}
+.flex-container p {
+	text-align: left;
+	color: black;
+	padding-left: 10px;
+}
+.footer1 img{
+	width: 5%;
+}
+.footer1, footer p{
+	text-align: center;
+	font-family: 'Urbanist', sans-serif;
+	font-size: 25px;
+	background-color: darkcyan;
+	color: white;
+	padding: 20px;
+}
+.footer1 ul li a {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	color: white;
+}
+
